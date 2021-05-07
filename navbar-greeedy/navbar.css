@@ -1,0 +1,95 @@
+body{
+    background-color: #223;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#navbarWraper{
+    position: relative;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    background-color: #112;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+
+#navbar a{
+    font-size: 1em;
+    padding: .5em;
+}
+
+#navbar li{
+    background-color: #333;
+    height: 2.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 145px;
+
+}
+
+#navbarDrop{
+    position: absolute;
+    right: 1em;
+    top: 5.5em;
+}
+
+#navbarDrop li{
+    background-color: #333;
+    height: 2.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 145px;
+    margin-bottom: 1em;
+    font-size: 1.25em;
+}
+
+#navbar button{
+    margin-left: 1em;
+    font-size: 1em;
+    background-color: #333;
+    height: 2.5em;
+    width: 3.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 0 1em;
+    border: none;
+    outline: none;
+    color: white; 
+    cursor: pointer;
+
+}
+
+#navbar button span{
+    font-size: 1em;
+    background-color: #333;
+    height: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: -0.9em;
+    border: 0.2em solid #112;
+    border-radius: 1em;
+    background-color: #333;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
